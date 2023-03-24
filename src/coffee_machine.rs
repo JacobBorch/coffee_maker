@@ -10,7 +10,7 @@ impl CoffeeMachine {
         }
     }
 
-    pub fn brew() {
+    pub fn brew(&self) {
         todo!()
     }
 }
