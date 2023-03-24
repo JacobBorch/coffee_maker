@@ -30,6 +30,7 @@ impl Simulator {
                 }
             }
         }
+        self.controller.tick()
     }
 
     pub fn simulate(&mut self) {
