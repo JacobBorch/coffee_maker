@@ -1,3 +1,11 @@
+use crate::controller::Controller;
+use crate::simulator::Simulator;
+
+mod controller;
+mod coffee_machine;
+mod simulator;
+
 fn main() {
-    println!("Hello, world!");
+    let mut simulator = Simulator::new();
+    simulator.simulate()
 }
